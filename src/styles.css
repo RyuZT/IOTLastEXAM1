@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background: rgb(29, 72, 89);
+}
+
+.container {
+    color: rgb(8, 237, 92);
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 250px 0;
+    font-size: xxx-large;
+}
+
+.container button {
+    width: 50px;
+    height: 60px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #26e258;
+    font-size: 50px;
+    color: white;
+    background-color: #2fca59;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.container button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    transform: scale(0);
+    z-index: 0;
+}
+
+.container button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 0;
+}
+
+.container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.container button:hover::before {
+    transform: scale(2);
+}
+
+.container button:hover::after {
+    transform: translate(-50%, -50%) scale(3);
+}
