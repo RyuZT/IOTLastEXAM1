@@ -120,7 +120,7 @@ function Home() {
       </div>
       <div className="button">
         <button className="prev" onClick={moveToStart}>
-          <i className="fa-solid fa-arrow-left"></i>
+          <i className="fa-solid fa-arrow-left">🡨</i>
         </button>
         <button className="next" onClick={moveToEnd}>
           <i className="fa-solid fa-arrow-right"></i>
