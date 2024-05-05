@@ -84,7 +84,6 @@ const images = [
       "Banyumala Twin Waterfall terletak di Desa Wanagiri, Kecamatan Sukasada, Kabupaten Buleleng, Bali.",
   },
 ];
-
 function Home() {
   const [items, setItems] = useState(images);
 
