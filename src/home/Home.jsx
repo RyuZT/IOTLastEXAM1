@@ -10,7 +10,7 @@ import img7 from './Image/img7.jpg';
 import img8 from './Image/img8.jpg';
 import img9 from './Image/img9.jpg';
 import img10 from './Image/img10.jpg';
-import logo from './Image/logo.png';
+
 
 const images = [
   {
@@ -103,9 +103,7 @@ function Home() {
 
   return (
     <div className="container">
-      <div className="logo">
-        <img src={logo} alt="Logo" />
-      </div>
+  
       <div className="slide">
         {items.map((item) => (
           <div

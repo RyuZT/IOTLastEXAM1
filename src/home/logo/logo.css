@@ -1,14 +1,29 @@
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-  }
-  .logoContainer {
-    display: inline-block;
-    flex-direction: column-reverse;
-  }
-  
- 
-    
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 130px;
+  animation: bounce 2s ease-in infinite; /* Use the bounce animation, with duration 1s and ease-in timing function */
+}
+
+.logoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%; /* Misalnya, gunakan persentase untuk lebar */
+  max-width: 100%; /* Mencegah gambar melebihi lebar kontainer */
+  height: auto; /* Memastikan gambar tetap proporsional saat diubah ukurannya */
+}
