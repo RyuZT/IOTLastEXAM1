@@ -1,0 +1,37 @@
+.nirwana {
+    /* Menyusun elemen dalam kotak */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menggeser ke tengah secara horizontal */
+    justify-content: center; /* Menggeser ke tengah secara vertikal */
+    text-align: center; /* Untuk konten teks di tengah */
+    height: 100vh; /* Menggunakan tinggi viewport untuk konten di tengah halaman */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .nirwana h1 {
+    font-family: "Sedan SC", serif;
+    margin-bottom: 40px;
+    font-size: 55px;
+    animation: fadeIn ease-in-out 5s; 
+  }
+  .nirwana img {
+    /* Memperbesar gambar 30% dari ukuran konten */
+    width: 500px;
+    height: 400px;
+  }
+  
+  .nirwana video {
+    /* Mengurangi ukuran video */
+    width: 70%; 
+    margin-bottom: 500px;
+  }
+  
