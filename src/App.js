@@ -1,4 +1,4 @@
-// App.js
+
 import React from "react";
 import Home from "./home/Home.jsx";
 import "./home/Home.css";

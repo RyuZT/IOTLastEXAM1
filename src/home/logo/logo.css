@@ -14,16 +14,15 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 130px;
-  height: 130px;
-  animation: bounce 2s ease-in infinite; /* Use the bounce animation, with duration 1s and ease-in timing function */
-}
+  width: 120px;
+  height: 120px;
+  animation: bounce 2s ease-in infinite; }
 
 .logoContainer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 20%; /* Misalnya, gunakan persentase untuk lebar */
-  max-width: 100%; /* Mencegah gambar melebihi lebar kontainer */
-  height: auto; /* Memastikan gambar tetap proporsional saat diubah ukurannya */
+  width: 20%; 
+  max-width: 100%; 
+  height: auto;
 }

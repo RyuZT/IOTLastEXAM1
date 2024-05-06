@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
     margin-right: 25px;
     margin-bottom: 200px;
  
@@ -17,6 +16,7 @@
     color: aliceblue; 
     transition: color 0.3s ease;
     margin-right: 25px;
+    font-weight: bolder;
   }
   
   .nav-link:hover {
