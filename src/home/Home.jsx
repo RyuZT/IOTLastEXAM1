@@ -103,7 +103,7 @@ function Home() {
 
   return (
     <div className="container">
-  
+  c
       <div className="slide">
         {items.map((item) => (
           <div
