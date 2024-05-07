@@ -14,6 +14,7 @@ function Navbar() {
           <Link class="nav-link" to="./homes">Home</Link>
             <Link class="nav-link active" aria-current="page" to="/">Pariwisata</Link>
             <Link class="nav-link" to="./aboutus">About US</Link>
+            <Link class="nav-link" to="./game">Games</Link>
             <Link class="nav-link" to="/contactus.jsx">Contact US</Link>
           </div>
         </div>

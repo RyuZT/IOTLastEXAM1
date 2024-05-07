@@ -1,11 +1,14 @@
 import React from "react";
 import Home from "./home/pariwisata.jsx";
 import "./home/pariwisata.css";
-import Navbar from "./home/navbar.js"; 
+import "./home/navbar.css";
+import "./homes/home.css";
+import "./aboutus/aboutus.css";
+import Navbar from "./home/navbar.jsx"; 
 import Logo from "./home/logo/logo.jsx";
 import Nir from "./home/logo/nir.jsx"
-import Aboutus from "./aboutus/aboutus.js";
-import Homes from "./homes/home.js";
+import Aboutus from "./aboutus/aboutus.jsx";
+import Homes from "./homes/home.jsx";
 import { Route, Routes } from "react-router-dom";
 
 
