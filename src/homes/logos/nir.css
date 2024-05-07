@@ -1,0 +1,7 @@
+.nirContainer {
+    position: relative;
+    margin-top: 60px; /* Atur jarak vertikal antara logo dan nir */
+    width: 20%; /* Misalnya, gunakan persentase untuk lebar */
+    max-width: 100%; /* Mencegah gambar melebihi lebar kontainer */
+    height: auto; /* Memastikan gambar tetap proporsional saat diubah ukurannya */
+}

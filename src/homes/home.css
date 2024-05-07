@@ -1,6 +1,4 @@
-.body{
-  background-image: url(Images/nira.png);
-}
+
 
 .nirwana {
     display: flex;
@@ -32,13 +30,12 @@
   }
   
   .vid {
-    width: 70%; 
+    justify-content: center;
+    width: 50%; 
+    position: absolute;
     margin-bottom: 50px;
     z-index: -1;
     position: absolute;
     justify-content: center;
   }
   
-  .nirwana {
-    background-color: rgba(0, 0, 0, 0.597);
-  }
